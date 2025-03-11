@@ -17,9 +17,10 @@ export default function RootLayout() {
           paddingTop: 10,
           backgroundColor: "#fff",
         },
-      }}>
-     <Stack.Screen name='index' options={{ title: 'Home' }} />
-      
-      </Stack>
+      }}
+    >
+      <Stack.Screen name="index" options={{ title: "Home" }} />
+      <Stack.Screen name="notes" options={{ headerTitle: "Notes" }} />
+    </Stack>
   );
 }
