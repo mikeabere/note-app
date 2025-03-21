@@ -11,7 +11,7 @@ export default function HomeScreen() {
       <Text style={styles.subtitle}>
         Capture your thoughts anytime, anywhere
       </Text>
-
+      
       <TouchableOpacity
         style={styles.button}
         onPress={() => router.push("/notes")}
